@@ -8,17 +8,83 @@
 
 /* Begin PBXBuildFile section */
 		43C49BDD2AADFF8600701E50 /* Amalia_CyberQuoteTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BDC2AADFF8600701E50 /* Amalia_CyberQuoteTestApp.swift */; };
-		43C49BDF2AADFF8600701E50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BDE2AADFF8600701E50 /* ContentView.swift */; };
 		43C49BE12AADFF8700701E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C49BE02AADFF8700701E50 /* Assets.xcassets */; };
 		43C49BE42AADFF8700701E50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C49BE32AADFF8700701E50 /* Preview Assets.xcassets */; };
+		43C49BED2AAE0EA300701E50 /* WalletCardPurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BEC2AAE0EA300701E50 /* WalletCardPurple.swift */; };
+		43C49BF02AAE13C200701E50 /* WalletCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BEF2AAE13C200701E50 /* WalletCardModel.swift */; };
+		43C49BF32AB0A47A00701E50 /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BF22AB0A47A00701E50 /* WalletViewModel.swift */; };
+		43C49BF72AB2567600701E50 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BF62AB2567600701E50 /* Extension.swift */; };
+		43C49BF92AB2946900701E50 /* WalletCardGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BF82AB2946900701E50 /* WalletCardGreen.swift */; };
+		43C49BFB2AB2947700701E50 /* WalletCardPink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BFA2AB2947700701E50 /* WalletCardPink.swift */; };
+		43C49BFD2AB2948100701E50 /* WalletCardBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49BFC2AB2948100701E50 /* WalletCardBlue.swift */; };
+		43C49C012AB2958B00701E50 /* WalletListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49C002AB2958B00701E50 /* WalletListView.swift */; };
+		43C49C032AB3250200701E50 /* TransactionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49C022AB3250200701E50 /* TransactionCard.swift */; };
+		43C49C3D2AB486E000701E50 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C2A2AB486E000701E50 /* Poppins-ExtraLight.ttf */; };
+		43C49C3E2AB486E000701E50 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C2B2AB486E000701E50 /* Poppins-ThinItalic.ttf */; };
+		43C49C3F2AB486E000701E50 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C2C2AB486E000701E50 /* Poppins-ExtraLightItalic.ttf */; };
+		43C49C402AB486E000701E50 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C2D2AB486E000701E50 /* Poppins-BoldItalic.ttf */; };
+		43C49C412AB486E000701E50 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C2E2AB486E000701E50 /* Poppins-Light.ttf */; };
+		43C49C422AB486E000701E50 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C2F2AB486E000701E50 /* Poppins-Medium.ttf */; };
+		43C49C432AB486E000701E50 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C302AB486E000701E50 /* Poppins-SemiBoldItalic.ttf */; };
+		43C49C442AB486E000701E50 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C312AB486E000701E50 /* Poppins-ExtraBoldItalic.ttf */; };
+		43C49C452AB486E000701E50 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C322AB486E000701E50 /* Poppins-ExtraBold.ttf */; };
+		43C49C462AB486E000701E50 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C332AB486E000701E50 /* Poppins-BlackItalic.ttf */; };
+		43C49C472AB486E000701E50 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C342AB486E000701E50 /* OFL.txt */; };
+		43C49C482AB486E000701E50 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C352AB486E000701E50 /* Poppins-Regular.ttf */; };
+		43C49C492AB486E000701E50 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C362AB486E000701E50 /* Poppins-LightItalic.ttf */; };
+		43C49C4A2AB486E000701E50 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C372AB486E000701E50 /* Poppins-Bold.ttf */; };
+		43C49C4B2AB486E000701E50 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C382AB486E000701E50 /* Poppins-Black.ttf */; };
+		43C49C4C2AB486E000701E50 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C392AB486E000701E50 /* Poppins-Thin.ttf */; };
+		43C49C4D2AB486E000701E50 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C3A2AB486E000701E50 /* Poppins-SemiBold.ttf */; };
+		43C49C4E2AB486E000701E50 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C3B2AB486E000701E50 /* Poppins-Italic.ttf */; };
+		43C49C4F2AB486E000701E50 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43C49C3C2AB486E000701E50 /* Poppins-MediumItalic.ttf */; };
+		43C49C522AB48F7200701E50 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49C512AB48F7200701E50 /* TransactionModel.swift */; };
+		43C49C542AB4900B00701E50 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49C532AB4900B00701E50 /* TransactionViewModel.swift */; };
+		43C49C562AB4981400701E50 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49C552AB4981400701E50 /* TransactionListView.swift */; };
+		43C49C582AB4AB0400701E50 /* AddWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49C572AB4AB0400701E50 /* AddWalletView.swift */; };
+		43C49C5A2AB4B02500701E50 /* StatementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C49C592AB4B02500701E50 /* StatementView.swift */; };
+		43C49C5D2AB50CF200701E50 /* UICircularProgressRing in Frameworks */ = {isa = PBXBuildFile; productRef = 43C49C5C2AB50CF200701E50 /* UICircularProgressRing */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		43C49BD92AADFF8600701E50 /* Amalia_CyberQuoteTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amalia_CyberQuoteTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C49BDC2AADFF8600701E50 /* Amalia_CyberQuoteTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amalia_CyberQuoteTestApp.swift; sourceTree = "<group>"; };
-		43C49BDE2AADFF8600701E50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43C49BE02AADFF8700701E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C49BE32AADFF8700701E50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43C49BEC2AAE0EA300701E50 /* WalletCardPurple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardPurple.swift; sourceTree = "<group>"; };
+		43C49BEF2AAE13C200701E50 /* WalletCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardModel.swift; sourceTree = "<group>"; };
+		43C49BF22AB0A47A00701E50 /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
+		43C49BF62AB2567600701E50 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		43C49BF82AB2946900701E50 /* WalletCardGreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardGreen.swift; sourceTree = "<group>"; };
+		43C49BFA2AB2947700701E50 /* WalletCardPink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardPink.swift; sourceTree = "<group>"; };
+		43C49BFC2AB2948100701E50 /* WalletCardBlue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardBlue.swift; sourceTree = "<group>"; };
+		43C49C002AB2958B00701E50 /* WalletListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletListView.swift; sourceTree = "<group>"; };
+		43C49C022AB3250200701E50 /* TransactionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCard.swift; sourceTree = "<group>"; };
+		43C49C2A2AB486E000701E50 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		43C49C2B2AB486E000701E50 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		43C49C2C2AB486E000701E50 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		43C49C2D2AB486E000701E50 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		43C49C2E2AB486E000701E50 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		43C49C2F2AB486E000701E50 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		43C49C302AB486E000701E50 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		43C49C312AB486E000701E50 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		43C49C322AB486E000701E50 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		43C49C332AB486E000701E50 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		43C49C342AB486E000701E50 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		43C49C352AB486E000701E50 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		43C49C362AB486E000701E50 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		43C49C372AB486E000701E50 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		43C49C382AB486E000701E50 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		43C49C392AB486E000701E50 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		43C49C3A2AB486E000701E50 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		43C49C3B2AB486E000701E50 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		43C49C3C2AB486E000701E50 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		43C49C502AB487E300701E50 /* Amalia-CyberQuoteTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Amalia-CyberQuoteTest-Info.plist"; sourceTree = SOURCE_ROOT; };
+		43C49C512AB48F7200701E50 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		43C49C532AB4900B00701E50 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		43C49C552AB4981400701E50 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		43C49C572AB4AB0400701E50 /* AddWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWalletView.swift; sourceTree = "<group>"; };
+		43C49C592AB4B02500701E50 /* StatementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C49C5D2AB50CF200701E50 /* UICircularProgressRing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +118,15 @@
 		43C49BDB2AADFF8600701E50 /* Amalia_CyberQuoteTest */ = {
 			isa = PBXGroup;
 			children = (
+				43C49C502AB487E300701E50 /* Amalia-CyberQuoteTest-Info.plist */,
+				43C49C282AB486CF00701E50 /* Fonts */,
+				43C49BEE2AAE139400701E50 /* Model */,
+				43C49BEA2AAE0E6500701E50 /* View */,
+				43C49BF12AB09F7D00701E50 /* ViewModel */,
 				43C49BDC2AADFF8600701E50 /* Amalia_CyberQuoteTestApp.swift */,
-				43C49BDE2AADFF8600701E50 /* ContentView.swift */,
 				43C49BE02AADFF8700701E50 /* Assets.xcassets */,
 				43C49BE22AADFF8700701E50 /* Preview Content */,
+				43C49BF62AB2567600701E50 /* Extension.swift */,
 			);
 			path = Amalia_CyberQuoteTest;
 			sourceTree = "<group>";
@@ -65,6 +137,83 @@
 				43C49BE32AADFF8700701E50 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43C49BEA2AAE0E6500701E50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43C49C5E2AB50F9600701E50 /* WalletCard */,
+				43C49C002AB2958B00701E50 /* WalletListView.swift */,
+				43C49C022AB3250200701E50 /* TransactionCard.swift */,
+				43C49C552AB4981400701E50 /* TransactionListView.swift */,
+				43C49C572AB4AB0400701E50 /* AddWalletView.swift */,
+				43C49C592AB4B02500701E50 /* StatementView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43C49BEE2AAE139400701E50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43C49BEF2AAE13C200701E50 /* WalletCardModel.swift */,
+				43C49C512AB48F7200701E50 /* TransactionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43C49BF12AB09F7D00701E50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				43C49BF22AB0A47A00701E50 /* WalletViewModel.swift */,
+				43C49C532AB4900B00701E50 /* TransactionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		43C49C282AB486CF00701E50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				43C49C292AB486E000701E50 /* Poppins */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		43C49C292AB486E000701E50 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				43C49C2A2AB486E000701E50 /* Poppins-ExtraLight.ttf */,
+				43C49C2B2AB486E000701E50 /* Poppins-ThinItalic.ttf */,
+				43C49C2C2AB486E000701E50 /* Poppins-ExtraLightItalic.ttf */,
+				43C49C2D2AB486E000701E50 /* Poppins-BoldItalic.ttf */,
+				43C49C2E2AB486E000701E50 /* Poppins-Light.ttf */,
+				43C49C2F2AB486E000701E50 /* Poppins-Medium.ttf */,
+				43C49C302AB486E000701E50 /* Poppins-SemiBoldItalic.ttf */,
+				43C49C312AB486E000701E50 /* Poppins-ExtraBoldItalic.ttf */,
+				43C49C322AB486E000701E50 /* Poppins-ExtraBold.ttf */,
+				43C49C332AB486E000701E50 /* Poppins-BlackItalic.ttf */,
+				43C49C342AB486E000701E50 /* OFL.txt */,
+				43C49C352AB486E000701E50 /* Poppins-Regular.ttf */,
+				43C49C362AB486E000701E50 /* Poppins-LightItalic.ttf */,
+				43C49C372AB486E000701E50 /* Poppins-Bold.ttf */,
+				43C49C382AB486E000701E50 /* Poppins-Black.ttf */,
+				43C49C392AB486E000701E50 /* Poppins-Thin.ttf */,
+				43C49C3A2AB486E000701E50 /* Poppins-SemiBold.ttf */,
+				43C49C3B2AB486E000701E50 /* Poppins-Italic.ttf */,
+				43C49C3C2AB486E000701E50 /* Poppins-MediumItalic.ttf */,
+			);
+			name = Poppins;
+			path = ../../../../../Downloads/Poppins;
+			sourceTree = "<group>";
+		};
+		43C49C5E2AB50F9600701E50 /* WalletCard */ = {
+			isa = PBXGroup;
+			children = (
+				43C49BEC2AAE0EA300701E50 /* WalletCardPurple.swift */,
+				43C49BF82AB2946900701E50 /* WalletCardGreen.swift */,
+				43C49BFA2AB2947700701E50 /* WalletCardPink.swift */,
+				43C49BFC2AB2948100701E50 /* WalletCardBlue.swift */,
+			);
+			path = WalletCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +232,9 @@
 			dependencies = (
 			);
 			name = Amalia_CyberQuoteTest;
+			packageProductDependencies = (
+				43C49C5C2AB50CF200701E50 /* UICircularProgressRing */,
+			);
 			productName = Amalia_CyberQuoteTest;
 			productReference = 43C49BD92AADFF8600701E50 /* Amalia_CyberQuoteTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 43C49BD02AADFF8600701E50;
+			packageReferences = (
+				43C49C5B2AB50CF200701E50 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */,
+			);
 			productRefGroup = 43C49BDA2AADFF8600701E50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +280,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C49C412AB486E000701E50 /* Poppins-Light.ttf in Resources */,
+				43C49C4B2AB486E000701E50 /* Poppins-Black.ttf in Resources */,
+				43C49C492AB486E000701E50 /* Poppins-LightItalic.ttf in Resources */,
+				43C49C4C2AB486E000701E50 /* Poppins-Thin.ttf in Resources */,
+				43C49C3D2AB486E000701E50 /* Poppins-ExtraLight.ttf in Resources */,
+				43C49C4D2AB486E000701E50 /* Poppins-SemiBold.ttf in Resources */,
+				43C49C4A2AB486E000701E50 /* Poppins-Bold.ttf in Resources */,
+				43C49C3E2AB486E000701E50 /* Poppins-ThinItalic.ttf in Resources */,
+				43C49C3F2AB486E000701E50 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				43C49C462AB486E000701E50 /* Poppins-BlackItalic.ttf in Resources */,
+				43C49C442AB486E000701E50 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				43C49C402AB486E000701E50 /* Poppins-BoldItalic.ttf in Resources */,
+				43C49C432AB486E000701E50 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				43C49C472AB486E000701E50 /* OFL.txt in Resources */,
+				43C49C482AB486E000701E50 /* Poppins-Regular.ttf in Resources */,
+				43C49C452AB486E000701E50 /* Poppins-ExtraBold.ttf in Resources */,
+				43C49C422AB486E000701E50 /* Poppins-Medium.ttf in Resources */,
 				43C49BE42AADFF8700701E50 /* Preview Assets.xcassets in Resources */,
+				43C49C4E2AB486E000701E50 /* Poppins-Italic.ttf in Resources */,
+				43C49C4F2AB486E000701E50 /* Poppins-MediumItalic.ttf in Resources */,
 				43C49BE12AADFF8700701E50 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +311,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C49BDF2AADFF8600701E50 /* ContentView.swift in Sources */,
+				43C49C562AB4981400701E50 /* TransactionListView.swift in Sources */,
+				43C49BFD2AB2948100701E50 /* WalletCardBlue.swift in Sources */,
+				43C49BF02AAE13C200701E50 /* WalletCardModel.swift in Sources */,
+				43C49C522AB48F7200701E50 /* TransactionModel.swift in Sources */,
+				43C49BF72AB2567600701E50 /* Extension.swift in Sources */,
+				43C49BF32AB0A47A00701E50 /* WalletViewModel.swift in Sources */,
+				43C49BF92AB2946900701E50 /* WalletCardGreen.swift in Sources */,
+				43C49C012AB2958B00701E50 /* WalletListView.swift in Sources */,
+				43C49BED2AAE0EA300701E50 /* WalletCardPurple.swift in Sources */,
+				43C49BFB2AB2947700701E50 /* WalletCardPink.swift in Sources */,
 				43C49BDD2AADFF8600701E50 /* Amalia_CyberQuoteTestApp.swift in Sources */,
+				43C49C582AB4AB0400701E50 /* AddWalletView.swift in Sources */,
+				43C49C032AB3250200701E50 /* TransactionCard.swift in Sources */,
+				43C49C5A2AB4B02500701E50 /* StatementView.swift in Sources */,
+				43C49C542AB4900B00701E50 /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +457,7 @@
 				DEVELOPMENT_TEAM = C8B3R9N352;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amalia-CyberQuoteTest-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +487,7 @@
 				DEVELOPMENT_TEAM = C8B3R9N352;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Amalia-CyberQuoteTest-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +528,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43C49C5B2AB50CF200701E50 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/luispadron/UICircularProgressRing";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43C49C5C2AB50CF200701E50 /* UICircularProgressRing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43C49C5B2AB50CF200701E50 /* XCRemoteSwiftPackageReference "UICircularProgressRing" */;
+			productName = UICircularProgressRing;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43C49BD12AADFF8600701E50 /* Project object */;
 }
